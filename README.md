@@ -4,7 +4,8 @@ The primary purpose of this analysis was to perform an ETL by first, extracting 
 ## Results: 
 ### How many Vine reviews and non-Vine reviews were there? 
 Out of 43,574 reviews with total votes equaling 20 or greater there were only 107 reviews by vine members, while the remaining 39,869 reviews were not members. 
-![](
+# ![](Images/vine_members_count.png)
+# ![](Images/nonvine_members_count.png)
 ### How many Vine reviews were 5-stars? How many non-Vine reviews were 5 stars?
 There were 56 5-star reviews by vine members and 21,005 by non-members.
 ### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
