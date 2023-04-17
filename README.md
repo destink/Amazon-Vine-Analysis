@@ -1,6 +1,6 @@
 # Amazon-Vine-Analysis
 ## Overview of the analysis:
-The primary purpose of this analysis was to perform an ETL by first, extracting a large data set from amazons product reveiw data set into a PySpark data frame utilizing google Colab Notebook. Then to transfer the data frame into tables that matched the schema that was created in PgAdmin. To then load the data in to PgAdmin and convert to separate csv files that could then be analyzed utilizing Pandas and Jupyter Notebook to find if there is a bias towards favorable reviews from Vine members.
+The primary purpose of this analysis was to perform an ETL by first, extracting a large data set from amazons product reveiw data set into a PySpark data frame utilizing Google Colab Notebook. Then to transfer the data frame into tables that matched the schema that was created in PgAdmin. To then load the data in to PgAdmin and convert to separate csv files that could then be analyzed utilizing Pandas and Jupyter Notebook to find if there is a bias towards favorable reviews from Vine members.
 ## Results: 
 ### How many Vine reviews and non-Vine reviews were there? 
 Out of 43,574 reviews with total votes equaling 20 or greater there were only 107 reviews by vine members, while the remaining 39,869 reviews were not members. 
